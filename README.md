@@ -5,7 +5,7 @@ Python Scripts to poll your Epush Server for logs and sync with your ERPNext ins
 
 1. Setup dependencies
     ```
-    cd biometric-attendance-sync-tool
+    cd epush-attendance-sync-tool
       && pip install -r requirements.txt
     ```
 2. Setup `local_config.py`
