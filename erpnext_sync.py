@@ -35,7 +35,7 @@ class Epush:
             print("fetch---",fetch_data)
             for data in fetch_data:
                 # attendance = {"user_id":data[0],"time":data[1].strftime('%y-%m-%d %H:%M:%S')}
-                # requests.post(url, data=json.dumps(attendance),headers={"Authorization":"Token 252f4c4946fb82b:2686ed2f0a57f74"})
+                # requests.post(url, data=json.dumps(attendance),headers={"Authorization":"Token key:secret"})
                 endpoint_app = "hrms" if ERPNEXT_VERSION > 13 else "erpnext"
                 url = f"{config.ERPNEXT_URL}/api/method/{endpoint_app}.hr.doctype.employee_checkin.employee_checkin.add_log_based_on_employee_field"
                 headers = {
