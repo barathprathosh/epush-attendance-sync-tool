@@ -13,3 +13,5 @@ Python Scripts to poll your Epush Server for logs and sync with your ERPNext ins
    Make a copy of and rename `local_config.py.template` file.
 
 3. Run this script using `python3 erpnext_sync.py`
+
+Software Package Link - https://drive.google.com/drive/folders/1z5e5aMuYahHtnMLtDr90HL1Kz467vnfk?usp=drive_link
