@@ -16,10 +16,10 @@ class Epush:
         start_date, end_date = datetime.datetime(current_year, current_month, 1).strftime("%m/%d/%Y"), datetime.datetime(current_year, current_month, num_days).strftime("%m/%d/%Y")
         today_date = date.today()
         mydb = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="admin",
-            database="epushserver"
+            host = config.DB_HOST,
+            user = config.DB_USER,
+            password = config.DATABASE_NAME,
+            database = config.DB_PASSWORD
             )
         mycursor = mydb.cursor(dictionary=True)
         # Current Date SQL_Query
