@@ -20,7 +20,7 @@ Python Scripts to poll your Epush Server for logs and sync with your ERPNext ins
         * Name: ERPNext Sync
         * Select Run whether user is logged on or not
         * Check Run with highest privileges
-   4.Triggers Tab → New:
+   4. Triggers Tab → New:
         * Begin the task: On a schedule
         * Settings: Daily
         * Repeat task every: 5 minutes
