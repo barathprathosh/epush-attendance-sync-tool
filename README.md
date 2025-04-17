@@ -133,5 +133,3 @@ Ensure iclock folder has the correct permissions under webapps/.
         * Action: Start a program
         * Program/script: C:\path\to\your\run_erpnext_sync.bat
    6. Apply and Save
-
-Software Package Link - https://drive.google.com/drive/folders/1z5e5aMuYahHtnMLtDr90HL1Kz467vnfk?usp=drive_link
