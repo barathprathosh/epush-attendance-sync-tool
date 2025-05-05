@@ -51,7 +51,7 @@ try:
             direction = 'IN' if data['Direction'] == 'in' else 'OUT'
         data = {
             'employee_field_value' : data['UserId'],
-            'timestamp' : data['LogDate'].strftime('%y-%m-%d %H:%M:%S'),
+            'timestamp' : data['LogDate'].strftime('%Y-%m-%d %H:%M:%S'),
             'device_id' : data['DeviceId'],
             'log_type' : direction
         }
